@@ -1,0 +1,33 @@
+body {
+  margin-top: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #3e022f;
+  color: wheat;
+  position: relative;
+}
+.btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 0.5rem;
+  background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
+  display: flex;
+}
+button:hover {
+  background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
+}
+button a {
+  color: black;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+button a:hover {
+  color: black;
+}
