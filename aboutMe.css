@@ -139,7 +139,7 @@ li{
   list-style: none;
 }
 .accordion-item-header.active + .accordion-item-body{
-  max-height: 1000px;
+  max-height: 3000px;
 }
 .btn-container{
   display: flex;

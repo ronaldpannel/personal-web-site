@@ -2,15 +2,19 @@ body {
   margin-top: 0;
   padding: 0;
   box-sizing: border-box;
-  box-sizing: border-box;
   background-color: #3e022f;
   color: wheat;
   position: relative;
+  font-family: "Roboto", sans-serif;
 }
+
+
+
 .btn-container {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 3rem;
 }
 button {
   outline: none;
