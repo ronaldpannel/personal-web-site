@@ -89,6 +89,8 @@ img{
   margin: 1rem 0;
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
+
+  
 }
 .accordion-item-header {
   padding: 0.5rem 1rem 0.5rem 1rem;
@@ -139,7 +141,8 @@ li{
   list-style: none;
 }
 .accordion-item-header.active + .accordion-item-body{
-  max-height: 3000px;
+  max-height: 300px;
+  overflow-y: auto;
 }
 .btn-container{
   display: flex;

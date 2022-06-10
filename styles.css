@@ -241,7 +241,9 @@ a:hover {
   color: aqua;
 }
 .accordion-item-header.active + .accordion-item-body {
-  max-height: 1000px;
+  max-height: 300px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
 }
 /* accordion end */
 
