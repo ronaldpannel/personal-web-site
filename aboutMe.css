@@ -1,40 +1,40 @@
-body{ 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Roboto", sans-serif;
-    background-color: #3e022f;
-    color: wheat;
-    position: relative;
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  background-color: #3e022f;
+  color: wheat;
+  position: relative;
 }
-img{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: 3rem;
+img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: 3rem;
 }
-.introduction{
-    max-width: 1000px;
-    display: flex;
-    align-items: center;;
-    margin: 10px auto;
-    position: relative;
+.introduction {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  margin: 10px auto;
+  position: relative;
 }
-.profile-image{
-    margin-left: 2rem;
+.profile-image {
+  margin-left: 2rem;
 }
-.profile-text{
-    padding: 20px auto;
-    margin-left: 2rem;
+.profile-text {
+  padding: 20px auto;
+  margin-left: 2rem;
 }
 
-@media(max-width:550px){
-  .introduction{
+@media (max-width: 550px) {
+  .introduction {
     flex-direction: column;
     align-self: center;
   }
-  .profile-text h1{
-      text-align: center;
+  .profile-text h1 {
+    text-align: center;
   }
 }
 
@@ -89,8 +89,6 @@ img{
   margin: 1rem 0;
   border-radius: 0.5rem;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
-
-  
 }
 .accordion-item-header {
   padding: 0.5rem 1rem 0.5rem 1rem;
@@ -126,50 +124,50 @@ img{
   padding: 1rem;
   line-height: 1.5rem;
   font-size: 1.1rem;
-  word-spacing: .2rem;
+  word-spacing: 0.2rem;
   color: white;
-  background-color:#3e022f;
+  background-color: #3e022f;
 }
-a{
+a {
   color: #f6aadf;
   text-decoration: none;
 }
-a:hover{
+a:hover {
   color: aqua;
 }
-li{
+li {
   list-style: none;
 }
-.accordion-item-header.active + .accordion-item-body{
+.accordion-item-header.active + .accordion-item-body {
   max-height: 300px;
   overflow-y: auto;
+  overscroll-behavior-y: contain;
 }
-.btn-container{
+.btn-container {
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
-button{
+button {
   outline: none;
   border: none;
   border-radius: 20px;
-  padding: .5rem .5rem;
+  padding: 0.5rem 0.5rem;
   background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
   display: flex;
 }
-button:hover{
-  background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%)
+button:hover {
+  background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
 }
-button a{
-  color:black;
+button a {
+  color: black;
   font-size: 1.1rem;
 }
-button a:hover{
+button a:hover {
   color: black;
 }
-@media(max-width:400px){
-  html{
+@media (max-width: 400px) {
+  html {
     font-size: 14px;
   }
 }
