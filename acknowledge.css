@@ -16,7 +16,6 @@ body {
   margin: 50px auto;
   text-align: center;
 }
-
 .title {
   text-transform: uppercase;
   width: 100%;
@@ -60,7 +59,6 @@ body {
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
 }
-
 .card {
   width: 350px;
   height: 250px;
@@ -72,16 +70,28 @@ body {
   scroll-snap-align: start;
   overflow: hidden;
 }
-
+.card-title{
+  position: relative;
+}
 .card-title p {
   font-size: 1.2rem;
-  padding-left: 10px;
+  padding-left: 70px;
   padding-bottom: 10px;
   background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+}
+.bio-img{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  padding-left: 10px;
+  top: -5px;
+
+
 }
 .card-title a {
   color: #f6aadf;
@@ -104,16 +114,24 @@ a:hover {
 }
 .card-body {
   text-align: left;
+  position: relative;
 }
 .card-body p {
   padding: 0 10px;
 }
-.read-more{
+.read-more-btn{
   color: #f6aadf;
+  background-color: transparent;
   font-size: .8rem;
   cursor: pointer;
+  border: none;
+  outline: none;
+  background-color:transparent;
+  position: absolute;
+  left: 10px;
+  top: 110px;
 }
-.read-more:hover{
+.card-body .read-more-btn:hover{
   color: aqua;
 }
 
@@ -124,7 +142,7 @@ a:hover {
   justify-content: center;
   margin-top: 3rem;
 }
-button {
+.home-btn {
   outline: none;
   border: none;
   border-radius: 20px;
@@ -132,14 +150,15 @@ button {
   background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
   display: flex;
 }
-button:hover {
+.home-btn:hover {
   background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
 }
-button a {
+.home-btn a {
   color: black;
   font-size: 1.1rem;
   text-decoration: none;
+  border: none;
 }
-button a:hover {
+.home-btn a:hover {
   color: black;
 }
