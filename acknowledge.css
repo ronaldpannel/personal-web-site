@@ -142,9 +142,6 @@ a:hover {
   border: none;
   outline: none;
   background-color:transparent;
-  position: absolute;
-  bottom: 0px;
-  right: 10px;;
 }
 .read-less-btn:hover{
    color: aqua;
@@ -155,16 +152,9 @@ dialog{
   color: wheat;
   width: 250px;
   border: white .5px solid;
-  height: max-content;
+  height: 300px;
   box-shadow: white 1px 1px 10px;
 }
-
-
-
-
-
-
-
 
 /* button start */
 .btn-container {
