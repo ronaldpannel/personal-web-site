@@ -48,6 +48,15 @@ body {
   font-size: 1.2rem;
 }
 /* slider start */
+.slider-title {
+  font-size: 1.1rem;
+  padding-left: 10px;
+  background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
 .card-container {
   width: 100%;
   height: 100%;
@@ -70,7 +79,7 @@ body {
   scroll-snap-align: start;
   overflow: hidden;
 }
-.card-title{
+.card-title {
   position: relative;
 }
 .card-title p {
@@ -83,15 +92,13 @@ body {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
 }
-.bio-img{
+.bio-img {
   position: absolute;
   height: 40px;
   width: 40px;
   border-radius: 50%;
   padding-left: 10px;
   top: -5px;
-
-
 }
 .card-title a {
   color: #f6aadf;
@@ -108,6 +115,10 @@ body {
   bottom: -19px;
   padding-left: 10px;
 }
+span{
+  color: wheat;
+  font-size: .8rem;
+}
 
 a:hover {
   color: aqua;
@@ -122,37 +133,38 @@ a:hover {
 .read-more-btn {
   color: #f6aadf;
   background-color: transparent;
-  font-size: .8rem;
+  font-size: 0.8rem;
   cursor: pointer;
   border: none;
   outline: none;
-  background-color:transparent;
+  background-color: transparent;
   position: absolute;
   left: 10px;
   top: 110px;
 }
-.card-body .read-more-btn:hover{
+.card-body .read-more-btn:hover {
   color: aqua;
 }
-.read-less-btn{
+.read-less-btn {
   color: #f6aadf;
   background-color: transparent;
-  font-size: .8rem;
+  font-size: 0.8rem;
   cursor: pointer;
   border: none;
   outline: none;
-  background-color:transparent;
+  background-color: transparent;
 }
-.read-less-btn:hover{
-   color: aqua;
+.read-less-btn:hover {
+  color: aqua;
 }
 
-dialog{
+dialog {
   background-color: black;
   color: wheat;
   width: 250px;
-  border: white .5px solid;
-  height: 300px;
+  border: white 0.5px solid;
+  min-height: min-content;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
   box-shadow: white 1px 1px 10px;
 }
 
