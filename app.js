@@ -3,6 +3,30 @@ const hamburger = document.querySelector(".hamburger");
 const bar1 = document.querySelector(".bar1");
 const bar2 = document.querySelector(".bar2");
 const bar3 = document.querySelector(".bar3");
+const clock = document.querySelector('.clock')
+const hours = document.querySelector('.hours')
+const mins = document.querySelector('.mins')
+const secs = document.querySelector('.secs')
+// clock
+
+function tick() {
+  const now = new Date()
+  const d = now.getDay()
+  const mth = now.getMonth()
+  const y = now.getFullYear()
+  const h = now.getHours()
+  const m = now.getMinutes()
+  const s = now.getSeconds()
+
+  hours.innerHTML = `${h}:  `
+  mins.innerHTML = `${m}:  `
+  secs.innerHTML = `${s}`
+
+  console.log(d, mth,y)
+}
+setInterval(tick, 1000)
+
+
 
 //navbar
 
