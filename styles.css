@@ -4,6 +4,17 @@
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
 }
+::-webkit-scrollbar{
+  width: 1rem;
+}
+::-webkit-scrollbar-track{
+  background-color: #560d07;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #773b34;
+  border: #560d07 solid .15rem;
+}
+
 body {
   background-color: #3e022f;
 }

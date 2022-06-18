@@ -1,3 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+::-webkit-scrollbar{
+  width: 1rem;
+}
+::-webkit-scrollbar-track{
+  background-color: #560d07;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #773b34;
+  border: #560d07 solid .15rem;
+}
+
 body {
   margin-top: 0;
   padding: 0;
@@ -52,6 +69,7 @@ body {
   font-size: 1.1rem;
   padding-left: 10px;
   margin-top: 45px;
+  margin-bottom:20px ;
   color: wheat;
 }
 .card-container {
@@ -78,11 +96,13 @@ body {
 }
 .card-title {
   position: relative;
+  padding-top: 20px;
+ 
 }
 .card-title p {
   font-size: 1.2rem;
   padding-left: 70px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -94,22 +114,15 @@ body {
   height: 40px;
   width: 40px;
   border-radius: 50%;
-  padding-left: 10px;
+  margin-left: 15px;
   top: -5px;
-}
-.udmey-logo{
-  position: absolute;
-  height: 40px;
-  width: 40px;
-  padding-left: 10px;
-  padding-right: 10px;
-  top: -5px;
-  background-color: aliceblue;
+  margin-top: 20px;
 }
 .card-title a {
   color: #f6aadf;
   text-decoration: none;
   padding-left: 55px;
+  margin-left: 15px;
   position: relative;
 }
 .card-title a::after {
@@ -134,7 +147,8 @@ a:hover {
   position: relative;
 }
 .card-body p {
-  padding: 0 10px;
+  margin-top: 15px;
+  margin-left: 15px;
 }
 .read-more-btn {
   color: #f6aadf;
@@ -165,9 +179,14 @@ a:hover {
 }
 
 dialog {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% -50%);
   background-color: black;
   color: wheat;
-  width: 250px;
+  width: 300px;
+  padding: 20px 15px;
   border: white 0.5px solid;
   max-height: 350px;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
@@ -187,9 +206,10 @@ dialog {
 }
 .card2 {
   width: 350px;
-  height: 350px;
+  height: 300px;
   max-width: 350px;
-  max-height: 350px;
+  max-height: 300px;
+  padding: 20px 15px ;
   background-color: black;
   border-radius: 10px;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
@@ -204,6 +224,7 @@ dialog {
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
+  margin-bottom: 20px;
 }
 .bio-container2{
   display: flex;
@@ -212,6 +233,7 @@ dialog {
 }
 .card-content p{
   padding-left: 10px;
+  margin-top: 20px;
 }
 span{
   color: wheat;
@@ -225,9 +247,7 @@ a:hover {
   text-align: left;
 
 }
-.card-body2 p {
-  padding: 0 10px;
-}
+
 .bio-img2{
   border-radius: 50%;
   height: 70px;
