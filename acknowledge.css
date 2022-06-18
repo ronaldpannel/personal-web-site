@@ -52,11 +52,7 @@ body {
   font-size: 1.1rem;
   padding-left: 10px;
   margin-top: 45px;
-  background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
+  color: wheat;
 }
 .card-container {
   width: 100%;
@@ -100,6 +96,15 @@ body {
   border-radius: 50%;
   padding-left: 10px;
   top: -5px;
+}
+.udmey-logo{
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  top: -5px;
+  background-color: aliceblue;
 }
 .card-title a {
   color: #f6aadf;
@@ -156,6 +161,104 @@ a:hover {
   background-color: transparent;
 }
 .read-less-btn:hover {
+  color: aqua;
+}
+
+dialog {
+  background-color: black;
+  color: wheat;
+  width: 250px;
+  border: white 0.5px solid;
+  max-height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: white 1px 1px 10px;
+}
+/* slide two */
+.card-container2 {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  grid-auto-flow: column;
+  gap: 0.5rem;
+  overflow-x: auto;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x mandatory;
+}
+.card2 {
+  width: 350px;
+  height: 350px;
+  max-width: 350px;
+  max-height: 350px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
+  scroll-snap-align: start;
+  overflow: hidden;
+}
+.card-title2 p{
+  text-align: center;
+  font-size: 1.3rem;
+  background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.bio-container2{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.card-content p{
+  padding-left: 10px;
+}
+span{
+  color: wheat;
+  font-size: .8rem;
+}
+
+a:hover {
+  color: aqua;
+}
+.card-body2 {
+  text-align: left;
+
+}
+.card-body2 p {
+  padding: 0 10px;
+}
+.bio-img2{
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  margin-left:20px;
+}
+.read-more-btn2 {
+  color: #f6aadf;
+  background-color: transparent;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  position: relative;
+  margin-left: 10px;
+}
+.read-more-btn2:hover {
+  color: aqua;
+}
+.read-less-btn2 {
+  color: #f6aadf;
+  background-color: transparent;
+  font-size: 0.8rem;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  
+}
+.read-less-btn2:hover {
   color: aqua;
 }
 

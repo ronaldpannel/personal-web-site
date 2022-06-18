@@ -6,6 +6,7 @@ const extraText4 = document.querySelector(".extra-text4")
 const extraText5 = document.querySelector(".extra-text5")
 const extraText6 = document.querySelector(".extra-text6")
 const extraText7 = document.querySelector(".extra-text7")
+const extraText8 = document.querySelector(".extra-text8")
 
 function openModal() {
   extraText.showModal();
@@ -61,5 +62,11 @@ function openModal7() {
 }
 function closeModal7() {
   extraText7.close();
+}
+function openModal8() {
+  extraText8.showModal();
+}
+function closeModal8() {
+  extraText8.close();
 }
     
