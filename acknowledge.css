@@ -180,9 +180,9 @@ a:hover {
 
 dialog {
   position: absolute;
-  left: 50%;
+  left: 20%;
   top: 50%;
-  transform: translate(-50% -50%);
+  transform: translate(-20% -50%);
   background-color: black;
   color: wheat;
   width: 300px;
@@ -308,7 +308,7 @@ a:hover {
   color: aqua;
 }
 
-dialog {
+/* dialog {
   background-color: black;
   color: wheat;
   width: 250px;
@@ -316,7 +316,7 @@ dialog {
   max-height: 350px;
   box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
   box-shadow: white 1px 1px 10px;
-}
+} */
 
 /* button start */
 .btn-container {
@@ -333,6 +333,7 @@ dialog {
   background-image: linear-gradient(to left, #ff0844 0%, #ffb199 100%);
   display: flex;
 }
+
 .home-btn:hover {
   background-image: linear-gradient(to right, #ff0844 0%, #ffb199 100%);
 }
