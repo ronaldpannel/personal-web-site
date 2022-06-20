@@ -79,4 +79,10 @@ function openModal9() {
 function closeModal9() {
   extraText9.close();
 }
+function openModal10() {
+  extraText10.showModal();
+}
+function closeModal10() {
+  extraText10.close();
+}
     

@@ -1,3 +1,19 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+::-webkit-scrollbar{
+  width: 1rem;
+}
+::-webkit-scrollbar-track{
+  background-color: #560d07;
+}
+::-webkit-scrollbar-thumb{
+  background-color: #d62410;;
+  border: #560d07 solid .15rem;
+}
 body {
   margin: 0;
   padding: 0;
@@ -171,3 +187,6 @@ button a:hover {
     font-size: 14px;
   }
 }
+
+
+
