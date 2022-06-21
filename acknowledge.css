@@ -181,7 +181,7 @@ a:hover {
 dialog {
   position: absolute;
   left: 20%;
-  top: 50%;
+  top: 60%;
   transform: translate(-20% -50%);
   background-color: black;
   color: wheat;
@@ -307,16 +307,6 @@ a:hover {
 .read-less-btn2:hover {
   color: aqua;
 }
-
-/* dialog {
-  background-color: black;
-  color: wheat;
-  width: 250px;
-  border: white 0.5px solid;
-  max-height: 350px;
-  box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.5);
-  box-shadow: white 1px 1px 10px;
-} */
 
 /* button start */
 .btn-container {
