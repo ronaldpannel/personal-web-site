@@ -85,4 +85,22 @@ function openModal10() {
 function closeModal10() {
   extraText10.close();
 }
+function openModal11() {
+  extraText11.showModal();
+}
+function closeModal11() {
+  extraText11.close();
+}
+function openModal12() {
+  extraText12.showModal();
+}
+function closeModal12() {
+  extraText12.close();
+}
+function openModal13() {
+  extraText13.showModal();
+}
+function closeModal13() {
+  extraText13.close();
+}
     
